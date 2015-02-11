@@ -1,0 +1,172 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 90px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+   padding-top: 100px;
+   color:#006;
+    background: #fff;
+	border-bottom:2px solid #ccc;
+}
+.about-section p
+{
+	font-size:18px;
+	color:#006;
+	text-align:justify;
+	padding:10px;
+	
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 100px;
+    color:#006;
+    background: #fff;
+	border-bottom:2px solid #ccc;
+}
+.services-section p
+{
+	font-size:18px;
+	color:#006;
+	padding:10px;
+	
+}
+
+.report-section {
+    height: 100%;
+    padding-top: 100px;
+    background: #fff;
+	 color:#006;
+}
+.report-section p
+{
+	font-size:18px;
+	color:#006;
+	text-align:center;
+	font-size:40px;
+	padding:10px;
+	
+}
+.gallery-section {
+    height: 100%;
+  padding-top: 100px;
+   color:white;
+    background: #006;
+}
+.facilities-section {
+    height: 100%;
+    padding-top: 100px;
+   color:#006;
+    background: #fff;
+}
+.facilities-section p
+{
+	font-size:18px;
+	color:#006;
+	text-align:center;
+	font-size:40px;
+	padding:10px;
+	
+}
+
+
+.contact-section {
+    height: 100%;
+   padding-top: 100px;
+   
+    background: #eee;
+}
+.services-section p
+{
+	font-size:18px;
+	color:#006;
+	padding:10px;
+	
+}
+
+.dlist
+{
+	height:105px;
+	width:200px;
+	background:#ffffff;
+	color:#006;
+	padding:5px;
+	margin:3px;
+	float:left;
+	/*border:2px solid #006;*/
+	border-radius:10px;
+}
+.address
+{
+width:30%
+height:auto;
+margin:30px;
+float:left;	
+}
+.cnt
+{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-top:-50px;
+	margin-left:150px;
+}
+.logo
+{
+	margin-top:-20px;
+	margin-left:-50px;
+	height:95px;
+	width:120px;
+}
+.logo:hover
+{
+	background:#006;;
+}
+.copyright
+{
+	margin-top:20px;;
+	color:#006;
+	text-align:center;
+	
+}
+ul
+{
+	list-style:none;
+}

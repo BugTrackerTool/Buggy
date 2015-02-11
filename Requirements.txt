@@ -1,0 +1,40 @@
+Requirements ::
+
+1. Personal login 
+	1. Change password
+	2. set profile pic
+	3. 
+2. Administrator login 
+	1. set privilege to user
+	2. add user 
+	3. delete user
+	4. 
+3. privilege one user 
+	1. Can create project
+	2. Can customize project with fields
+	3. can report bug
+	4. can follow bug
+	5. 
+4. privilege two user
+	1. can report bug
+	2. can follow bug 
+	3. 
+5. Dashboard 
+	1. Project level dashboard
+		1. total no.of bugs
+		2. total no.of live bugs
+		3. total no.of live critical bugs
+		4. 
+	2. personal dashboard
+		1. total no.of bugs reported by me
+		2. total no.of bugs assigned to me
+		3. critical bug assigned to me
+		4. total no.of bugs
+		5. 
+6. Bug life cycle page
+	1. raise bug [follwed by BLC][report page should by customizable by privilege 1 user(os/sub-module/...)]
+	2. add comments 
+	3. add attachments 
+	4. 
+7. Notification - for comments in bug and attachments 
+8. Request - for access privilege(admin user only) and project request(1 users only)
