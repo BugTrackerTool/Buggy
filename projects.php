@@ -111,7 +111,6 @@
 							<a id="noti" class="dropdown-toggle" data-toggle="dropdown" href="#">
 							<div class="glyphicon glyphicon-bell">
 								<div class="data-notifications">
-									3
 								</div>
 							</div></a>
 
