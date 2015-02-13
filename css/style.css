@@ -513,24 +513,25 @@ tr
 
 .projects-pane
 {
-	width:70%;
-	border:1px solid #066;
+	width:70%;#066;
 	border-radius:20px;
-	height:400px;
+	height:auto;
 	padding:15px;
 }
 
 .project-bar
 {
-	width:100%;
-	height:auto;
+	width:200px;
+	height:200px;
 	font-size:large;
 	text-align:left;
 	margin-top:10px;
 	background:#CCC;
-	padding:10px;
+	padding:12px;
 	border-radius:5px;
 	cursor:pointer;
+	float:left;
+	margin-left:50px;
 }
 .project-bar:hover
 {
@@ -588,8 +589,3 @@ tr
   font-size:13px;
 }
 
-
-#style-3::-webkit-scrollbar-thumb
-{
-	background-color: #000000;
-}

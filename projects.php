@@ -129,8 +129,9 @@ $('.data-notifications').text(x);
 
 <div class="wrapper">
 <div class="container2" align="center">
-<h2>Projects</h2>
+
 <div class="projects-pane mCustomScrollbar" data-mcs-theme="minimal-dark">
+<h2 align="left">Projects</h2>
 <div class="project-bar">
 <a href="#">Vembu BDR<br><span class="project-details">Total Issues : 100, Solved : 47, Critical : 11 </span></a>
 
