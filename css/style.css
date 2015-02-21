@@ -589,3 +589,105 @@ tr
   font-size:13px;
 }
 
+.profile
+{
+	width : 100%
+	height: auto;
+	padding : 20px;
+}
+
+.profile-pic
+{
+	height:auto;
+	width:250px;
+	border:1px solid #000;
+	float:left;
+	padding:3px;
+}
+
+.profile-pic-box
+{
+	height:300px;
+	width:240px;
+	float:left;
+}
+
+
+.profile-pic-edit
+{
+	width:auto;
+	height:auto;
+	opacity:0;
+	position:absolute;
+	margin-left:220px;
+	font-size:19px;
+
+}
+
+
+	
+.profile-pic-box img
+{
+	height:300px;
+	width:100%;
+}
+
+.profile-pic-box:hover .profile-pic-edit
+{
+	opacity:1;
+}
+
+
+
+.profile-details-pane
+{
+	width : 100%;
+	height :auto;
+	float:left;
+	margin-left:20px;
+	padding:5px;
+	
+}
+
+.profile-name
+{
+	margin:15px;
+	font-weight:bold;
+	font-style:italic;
+	font-size:19px;
+}
+
+
+
+.profile-details-table
+{
+
+	
+	margin-left:270px;
+	width:auto;
+}
+
+.user-details
+{
+	font-size:10px;	
+}
+
+.profile-name-edit
+{
+	visibility:hidden;
+	margin-left:5px;
+	transition:0.5s;
+}
+
+.profile-name:hover .profile-name-edit
+{
+	visibility:visible;
+	transition:0.5s;
+}
+
+[type="file"]
+{
+
+
+}
+
